@@ -1,0 +1,13 @@
+=> ENCAPSULATION:- 
+   wrapping up of data & member functions in a single unit called class.
+
+=> One-line definition (remember this):-
+   Encapsulation = data hiding + controlled access in a class
+
+=> Quick check:
+   If a class has:-
+
+   ✔ private data
+   ✔ public getter/setter (controlled access in a class)
+
+   → You are using encapsulation.

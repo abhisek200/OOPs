@@ -1,0 +1,14 @@
+=>=> Class
+Class = blueprint (design) of a thing
+Like:
+A car design on paper — not a real car yet.
+It only defines:
+• what data it will have
+• what actions it can do
+
+...................................................
+
+=>=> Object
+Object = real thing made from the class
+Like:
+The actual car built using the design.

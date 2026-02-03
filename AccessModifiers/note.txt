@@ -1,0 +1,23 @@
+=>=> Access modifiers decide who can use what inside a class.
+=>=> In simple words: 👉 They control visibility of data and functions.
+
+=>=> There are only 3:
+
+1. public
+Anyone can access it
+Think: open to all.
+
+2. private
+Only the class itself can access it
+Think: personal diary.
+
+3. protected
+Data and methods are accessible inside class and to its derived class
+Class + its child classes can access it
+
+
+=>=> Best memory line:
+
+public = everyone
+private = only me
+protected = me + my children
