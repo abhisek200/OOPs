@@ -1,3 +1,5 @@
 Classes & Objects
 Access Modifiers
 Encapsulation
+Constructor
+This Pointer

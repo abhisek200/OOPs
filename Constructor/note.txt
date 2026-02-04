@@ -1,0 +1,21 @@
+Constructor => special function that runs automatically when an object is created.
+That’s the whole idea !
+
+Key properties:-
+• Same name as class
+• No return type (not even void)
+• Runs once, automatically
+
+Why constructor exists
+To initialize data at object creation.
+So you don’t forget to set values.
+
+Types:-
+• Non - Parameterized Constructor
+• Parameterized constructor
+• Copy constructor
+
+serial order:-
+1. constructor.cpp
+2. Parameterized.cpp
+3. copy.cpp

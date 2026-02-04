@@ -1,0 +1,18 @@
+This pointer:-
+this = pointer that holds the address of the current object.
+
+Even simpler:
+👉 this refers to the object that is calling the function.
+
+Why it is needed
+When class variables and function parameters have the same name, C++ gets confused.
+this removes that confusion.
+
+Without this:
+❌ salary = salary; (parameter assigns to itself)
+
+With this:
+✅ object’s salary gets the value
+
+One-line rule (remember this)
+this->variable means “this object’s variable”.
