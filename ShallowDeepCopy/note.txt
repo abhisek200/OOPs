@@ -1,0 +1,109 @@
+[Line 38 - Basics & Hinglish Version]
+Shallow Copy:-
+Shallow copy = copies only the pointer, not the actual data.
+So:
+> Two objects
+> Same memory shared
+
+Problem
+If one object changes or is destroyed → both are affected
+This causes bugs, crashes, double free.
+
+👉 Default copy constructor does shallow copy.
+
+.............................................................
+
+Deep Copy
+Deep copy = copies the actual data, not just the pointer.
+So:
+> Two objects
+> Separate memory
+> Fully independent
+
+This is safe and correct.
+
+................................................................
+
+VISUAL DIFFERENCE :-
+
+Shallow Copy:
+obj1 ----> memory <---- obj2   ❌ shared
+
+Deep Copy:
+obj1 ----> memory1
+obj2 ----> memory2             ✅ separate
+
+..................................................................
+
+Still not get ? Here you go :)
+
+Pointer ka simple matlab
+int *p;
+👉 p number nahi rakhta
+👉 p address rakhta hai
+
+Aur:
+p = new int(10);
+👉 Memory me 10 bana
+👉 p us memory ka address rakhta hai
+
+Ab imagine karo (real life example)
+
+Tumhare paas ek box hai jisme 10 likha hai.
+Box ka address = pointer.
+
+## Case 1: Shallow Copy
+
+Tumne bola:
+
+“Is box ka copy bana do”
+But actually kya hua?
+
+❌ Naya box nahi bana
+❌ Sirf address copy ho gaya
+
+t1.x ───► [ 10 ] ◄─── t2.x
+
+Dono same box ko dekh rahe hain.
+Ab kya hoga?
+*t2.x = 20;
+
+Tumne box me 20 likh diya.
+
+👉 t1 bolega: “Mera 10 kaha gaya??”
+👉 kyunki box SAME tha
+
+Yahi Shallow Copy hai
+Shallow copy = address copy, data copy nahi
+
+************************************************
+
+##Case 2: Deep Copy (SAHI samjho)
+
+Ab teacher bola:
+“Naya box bana ke same value daal do”
+
+Ab kya hua?
+
+t1.x ───► [ 10 ]
+t2.x ───► [ 10 ]
+
+
+Do alag box, same value.
+Ab:
+*t2.x = 20;
+
+t1.x ───► [ 10 ]   ✅ safe
+t2.x ───► [ 20 ]
+
+
+Koi problem nahi.
+Yahi Deep Copy hai
+Deep copy = naya memory + value copy
+
+**************************************************
+
+Golden rule (yaad rakhna)
+
+❗ Jab bhi class me pointer ho :-
+❗ Default copy constructor = dangerous
