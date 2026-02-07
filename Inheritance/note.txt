@@ -89,3 +89,19 @@ c → ❌ not accessible
 ....................................................................................................................
 
 TYPES OF INHERITANCE :-
+
+1. Single inheritance
+Parent -> Child 
+(most common)
+
+2. MultiLevel inheritance
+Parent -> child -> grandChild
+
+3. Multiple inheritance
+Multiple parents → one child
+
+4. Hierarchical inheritance
+One parent → multiple children
+
+5. Hybrid inheritance
+Combination of multiple + multilevel
