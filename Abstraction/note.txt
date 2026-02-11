@@ -1,0 +1,18 @@
+ABSTRACTION :- Hiding all unnecessary deatils & showing only the important parts
+Simple words me:
+👉 User ko kya karna hai dikhana, kaise ho raha hai wo chhupana.
+Hint - All about Access Modifiers.
+..................................................................................
+
+Real Life Example :-
+Car drive karte waqt:
+Tum accelerator dabate ho
+Engine ka internal mechanism nahi dekhte
+Tumhe sirf interface pata hai, internal logic hidden hai.
+Yahi abstraction hai.
+
+...................................................................................
+
+Serial order -
+1. basicAbstraction.cpp
+2. realAbstraction.cpp
