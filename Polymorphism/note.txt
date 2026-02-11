@@ -1,0 +1,63 @@
+POLYMORPHISM :- Polymorphism is the ability of objects to take on "different forms" or behave in different ways "depending on the context"
+in which they are used.
+Inshort:
+multiple function with same name - different behavior  (accoridng to situation)
+
+................................................................................
+
+                                      TYPES: -
+                             1. Compile-time Polymorphism (Static) 
+                             2. Run-time Polymorphism (Dynamic)
+
+1️⃣ Compile-Time Polymorphism 
+Definition:
+Jab function ka behavior compile hone ke time decide hota hai, use compile-time polymorphism bolte hain.
+
+when ?
+
+> Function Overloading
+Definition:-
+Same class me same function name, lekin parameters different.
+  Parameters me difference hona zaroori hai:
+  -> Number of parameters
+  -> Type of parameters
+  -> Order of parameters
+Return type se overloading nahi hoti.
+
+
+> Operator Overloading
+Definition:-
+Jab hum kisi existing operator (+, -, *, ==, etc.) ko apni class ke objects ke liye
+custom behavior dete hain, use operator overloading bolte hain.
+Ex- Student S1, S2, S3;
+S3 = S1 + S2;   // ERROR
+Compiler ko nahi pata + ka matlab kya hai Student ke liye.
+Isliye hume define karna padega ki + ka behavior kya hoga.
+
+*************************************************************
+
+2️⃣ Run-Time Polymorphism
+Definition:
+Jab function ka behavior program run hone ke baad decide hota hai, use runtime polymorphism bolte hain.
+
+When?
+
+> Function Overriding
+Parent and child class both contain same function with different implementation.
+Important Conditions :-
+Inheritance hona chahiye
+Function name same
+Parameters same
+Runtime polymorphism ke liye parent function virtual hona chahiye
+
+
+> Virtual functions
+A virtual function is a member function that you expect to be redefined in derived classes
+Simple - (Virtual function wo function hota hai jo parent class me virtual keyword ke saath declare hota hai,
+         aur jiska call runtime pe decide hota hai, na ki compile-time pe.)
+         Virtual function = "Compiler ko bolna ki function ka decision runtime pe lena."
+Conditions:-
+Virtual function humesa parent class me likhte hain
+Override child class me hota hai
+Constructor virtual nahi hota
+Destructor usually virtual banana chahiye (real projects me)

@@ -6,3 +6,6 @@ This Pointer
 Shallow & Deep Copy
 Destructor
 Inheritance
+Polymorphism
+Abstraction
+Static Keyword
